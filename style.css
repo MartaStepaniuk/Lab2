@@ -1,16 +1,20 @@
 .phone{     
     background-color: lightgreen;     
     height: 185px;     
-    width: 105px;     
-} 
-.time{
+    width: 105px;
+    float: left;     
+}
+#time{
     background-color: white;     
     height: 91px;     
     width: 91px;     
     text-align: center;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.phone,.time{
+.phone,#time{
     margin: 7px;     
     border-radius: 12%;
     border: 1px solid black;  
@@ -58,7 +62,7 @@
 .button-position:nth-child(10) {     
     top: -74px; 
     left: 70px; 
-}  
+}
 .button-transform:nth-child(2) {     
     transform: translate(15px); 
 } 
