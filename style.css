@@ -1,14 +1,13 @@
-.phone{     
-    background-color: lightgreen;     
-    height: 185px;     
+.phone{
+    background-color: lightgreen;
+    height: 185px;
     width: 105px;
-    float: left;     
+    float: left;
 }
 #time{
     background-color: white;     
     height: 91px;     
     width: 91px;     
-    text-align: center;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -24,8 +23,6 @@
     width: 20px;     
     background-color: darkslategray;     
     border-radius: 50%;
-} 
-.button-position{
     position: relative;
 }
 .button-position:nth-child(2) {  
